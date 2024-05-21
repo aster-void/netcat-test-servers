@@ -1,6 +1,6 @@
 module echo
 
-go 1.22.2
+go 1.21.9
 
 require github.com/labstack/echo/v4 v4.12.0
 

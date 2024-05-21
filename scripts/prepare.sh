@@ -4,6 +4,7 @@ if [ -f ${git_root}/scripts/.prepared ]; then
   echo "preparation already done. delete /scripts/.prepared to redo it."
   exit 0
 fi
+cd $git_root
 (cd express && npm ci)
 (cd echo && go mod tidy)
 touch ./scripts/.prepared
