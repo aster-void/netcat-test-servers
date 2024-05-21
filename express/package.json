@@ -1,0 +1,9 @@
+{
+  "name": "nodejs-express",
+  "scripts": {
+    "start": "node main.mjs"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
